@@ -1,0 +1,42 @@
+{
+  "name": "job_lander",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "npx prisma migrate dev --name init",
+    "prisma:seed": "node prisma/seed.js",
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mantine/core": "^8.3.6",
+    "@mantine/dates": "^8.3.6",
+    "@mantine/hooks": "^8.3.6",
+    "@prisma/client": "^6.18.0",
+    "@tabler/icons-react": "^3.35.0",
+    "axios": "^1.13.1",
+    "bcryptjs": "^3.0.2",
+    "dayjs": "^1.11.18",
+    "framer-motion": "^12.23.24",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.548.0",
+    "next": "16.0.1",
+    "prisma": "^6.18.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "^7.65.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16"
+  }
+}

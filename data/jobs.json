@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Frontend Developer",
+    "companyName": "TechNova",
+    "location": "Bangalore",
+    "jobType": "Full-time",
+    "salaryRange": "6-8 LPA",
+    "description": "Develop and maintain front-end components using React and Mantine.",
+    "requirements": "Proficient in React, Next.js, and modern JS.",
+    "responsibilities": "Build responsive UI and ensure performance optimization.",
+    "deadline": "2025-12-30T00:00:00.000Z"
+  },
+  {
+    "title": "Backend Developer",
+    "companyName": "InnoSoft",
+    "location": "Pune",
+    "jobType": "Full-time",
+    "salaryRange": "7-10 LPA",
+    "description": "Develop APIs and manage databases using Node.js and Prisma.",
+    "requirements": "Experience with PostgreSQL and REST API development.",
+    "responsibilities": "Create scalable APIs and maintain backend logic.",
+    "deadline": "2025-11-15T00:00:00.000Z"
+  }
+]
